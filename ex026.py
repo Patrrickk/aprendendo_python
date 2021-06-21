@@ -1,0 +1,5 @@
+frase = str(input('Escrevar uma frase: ')).lower()
+print(f"A letra A apareceu = {frase.count('a')}")
+print(frase.count('a'))
+print(frase.find('a'))
+print(frase.find('a', -1))

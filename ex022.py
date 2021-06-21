@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome completo: ')).strip()
+print(nome.upper())
+print(nome.lower())
+tot_letras = nome.split()
+juntar = ''.join(tot_letras)
+print(f'Ao todo há {len(juntar)} letras')
+print(f'O primeiro nome tem {len(tot_letras[0])} letras')
