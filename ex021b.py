@@ -5,10 +5,10 @@ pygame.mixer.init()
 pygame.mixer.music.load('sozinho.mp3')  # Local da música
 
 
-#   Link da música para baixar: " encurtador.com.br/klmEW "
+#   Link da música para baixar: " https://github.com/Patrrickk/aprendendo_python/raw/main/sozinho.mp3 "
 #   link da lentra: https://www.letras.mus.br/jao/vou-morrer-sozinho/
 #   Copie e cole a letra da música aqui  ↓  dentro das três aspas
-letra = ['''''']
+letra = [''' ''']
 
 
 thc = ['Tfuex$n(lhgda     uvcm     bstoihm   zedbfiyza',  # 0
@@ -27,7 +27,7 @@ add_letra = len(letra[0])
 while True:
     if add_letra <= 1500:
         time.sleep(3)
-        print('\n\033[1:31mVocê precisa adicionar a letra primeiro!!!\033[m')
+        print('\n\033[1:31mPrimeiro você precisa adicionar a letra da música!!! está na linha 9\033[m')
     else:
         pygame.mixer.music.play()
         if play == 1:
