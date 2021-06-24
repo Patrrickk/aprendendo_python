@@ -8,66 +8,7 @@ pygame.mixer.music.load('sozinho.mp3')  # Local da música
 #   Link da música para baixar: " encurtador.com.br/klmEW "
 #   link da lentra: https://www.letras.mus.br/jao/vou-morrer-sozinho/
 #   Copie e cole a letra da música aqui  ↓  dentro das três aspas
-letra = ['''Você me ama bem
-Mas eu me distraio um pouco
-Se eu paro pra pensar
-Concluo que eu sou louco
-Juro que eu não queria ser assim
-Só gostar de quem não gosta de mim
-
-Ai, meu Deus
-Bem que a minha mãe me avisou
-Que eu ia conhecer o amor
-E deixaria ele ir embora
-Se você me amar demais
-Eu paro de te amar
-Um amor fácil me apavora
-
-Ai, meu Deus, eu vou morrer sozinho
-Se eu continuar nesse caminho
-Ai, meu Deus, eu vou morrer sozinho
-Se eu continuar nesse caminho
-De não deixar ninguém me amar
-E de só me apaixonar
-Por quem me faz chorar e me maltrata
-Ai, meu Deus, eu vou morrer sozinho
-
-Ai, meu Deus, eu vou morrer sozinho
-Ai, meu Deus, eu vou morrer sozinho
-Ai, meu Deus, eu vou morrer sozinho
-Ai, meu Deus, eu vou morrer sozinho
-
-Você me ama bem
-Mas eu me distraio um pouco
-Se eu paro pra pensar
-Concluo que eu sou louco
-Juro que eu não queria ser assim
-Só gostar de quem não gosta de mim
-
-Ai, meu Deus
-Bem que a minha mãe me avisou
-Que eu ia conhecer o amor
-E deixaria ele ir embora
-Se você me amar demais
-Eu paro de te amar
-Um amor fácil me apavora
-
-Ai, meu Deus, eu vou morrer sozinho
-Se eu continuar nesse caminho
-Ai, meu Deus, eu vou morrer sozinho
-Se eu continuar nesse caminho (vou morrer sozinho)
-De não deixar ninguém me amar
-E de só me apaixonar
-Por quem me faz chorar e me maltrata
-Ai, meu Deus, eu vou morrer sozinho
-
-Ai, meu Deus, eu vou morrer sozinho
-Ai, meu Deus, eu vou morrer sozinho
-Ai, meu Deus, eu vou morrer sozinho
-Ai, meu Deus, eu vou morrer sozinho
-
-Ai, meu Deus
-Ai, meu Deus, eu vou morrer sozinho''']
+letra = ['''''']
 
 
 thc = ['Tfuex$n(lhgda     uvcm     bstoihm   zedbfiyza',  # 0
