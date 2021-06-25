@@ -8,7 +8,66 @@ pygame.mixer.music.load('sozinho.mp3')  # Local da música
 #   Link da música para baixar: " https://github.com/Patrrickk/aprendendo_python/raw/main/sozinho.mp3 "
 #   link da lentra: https://www.letras.mus.br/jao/vou-morrer-sozinho/
 #   Copie e cole a letra da música aqui  ↓  dentro das três aspas
-letra = [''' ''']
+letra = ['''Você me ama bem
+Mas eu me distraio um pouco
+Se eu paro pra pensar
+Concluo que eu sou louco
+Juro que eu não queria ser assim
+Só gostar de quem não gosta de mim
+
+Ai, meu Deus
+Bem que a minha mãe me avisou
+Que eu ia conhecer o amor
+E deixaria ele ir embora
+Se você me amar demais
+Eu paro de te amar
+Um amor fácil me apavora
+
+Ai, meu Deus, eu vou morrer sozinho
+Se eu continuar nesse caminho
+Ai, meu Deus, eu vou morrer sozinho
+Se eu continuar nesse caminho
+De não deixar ninguém me amar
+E de só me apaixonar
+Por quem me faz chorar e me maltrata
+Ai, meu Deus, eu vou morrer sozinho
+
+Ai, meu Deus, eu vou morrer sozinho
+Ai, meu Deus, eu vou morrer sozinho
+Ai, meu Deus, eu vou morrer sozinho
+Ai, meu Deus, eu vou morrer sozinho
+
+Você me ama bem
+Mas eu me distraio um pouco
+Se eu paro pra pensar
+Concluo que eu sou louco
+Juro que eu não queria ser assim
+Só gostar de quem não gosta de mim
+
+Ai, meu Deus
+Bem que a minha mãe me avisou
+Que eu ia conhecer o amor
+E deixaria ele ir embora
+Se você me amar demais
+Eu paro de te amar
+Um amor fácil me apavora
+
+Ai, meu Deus, eu vou morrer sozinho
+Se eu continuar nesse caminho
+Ai, meu Deus, eu vou morrer sozinho
+Se eu continuar nesse caminho (vou morrer sozinho)
+De não deixar ninguém me amar
+E de só me apaixonar
+Por quem me faz chorar e me maltrata
+Ai, meu Deus, eu vou morrer sozinho
+
+Ai, meu Deus, eu vou morrer sozinho
+Ai, meu Deus, eu vou morrer sozinho
+Ai, meu Deus, eu vou morrer sozinho
+Ai, meu Deus, eu vou morrer sozinho
+
+Ai, meu Deus
+Ai, meu Deus, eu vou morrer sozinho''']
 
 
 thc = ['Tfuex$n(lhgda     uvcm     bstoihm   zedbfiyza',  # 0
@@ -26,8 +85,10 @@ play = 1
 add_letra = len(letra[0])
 while True:
     if add_letra <= 1500:
-        time.sleep(3)
+
         print('\n\033[1:31mPrimeiro você precisa adicionar a letra da música!!! está na linha 9\033[m')
+        time.sleep(10)
+        break
     else:
         pygame.mixer.music.play()
         if play == 1:
