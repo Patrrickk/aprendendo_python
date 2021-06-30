@@ -8,7 +8,7 @@ elif idade < 15:
     categoria = 'INFANTIL'
 elif idade < 20:
     categoria = 'JUNIOR'
-elif idade == 20:
+elif idade < 26:
     categoria = 'SÊNIOR'
 else:
     categoria = 'MASTER'
