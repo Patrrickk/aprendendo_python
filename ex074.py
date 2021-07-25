@@ -1,5 +1,5 @@
 from random import randint
-nus = (randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10))
+nus = (randint(1, 9), randint(1, 9), randint(1, 9), randint(1, 9), randint(1, 9))
 maior = menor = 0
 for cont, c in enumerate(nus):
     if cont == 0:

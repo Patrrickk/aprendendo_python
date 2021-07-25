@@ -1,4 +1,7 @@
 palavras = ('Computador', 'Escola', 'Bola', 'chuteira', 'violao', 'aviao')
+vogais = ''
 for c in palavras:
-    if c.count('o'):
-        print(c.index('o'))
+    print(f'\nNa palavra {c.upper()} temos', end='')
+    for letra in c:
+        if letra.lower() in 'aeiou':
+            print(letra, end=' ')
