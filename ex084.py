@@ -9,7 +9,7 @@ while True:
     dados.clear()
     totpes += 1
     stop = str(input('Quer continuar: ')).strip().lower()
-    if stop == 'n':
+    if stop in 'n':
         break
 print(f'Foram cadastradas {totpes} pessoas.')
 for pos, p in enumerate(galera):
@@ -20,11 +20,12 @@ for pos, p in enumerate(galera):
             maior_pes = p[1]
         if p[1] <= menor_pes:
             menor_pes = p[1]
-print(f'O maior peso foi de {maior_pes}Kg. peso de', end=' ')
+print(f'O maior peso foi de {maior_pes}Kg. peso de', end='')
 for ga in galera:
     if ga[1] == maior_pes:
-        print(f'{ga[0]}', end=', ')
-print(f'\nO menor peso foi de {menor_pes}Kg. peso de', end=' ')
+        print(f'{ga[0]},', end='')
+print()
+print(f'\nO menor peso foi de {menor_pes}Kg. peso de', end='')
 for ga in galera:
     if ga[1] == menor_pes:
-        print(f'{ga[0]}', end=', ')
+        print(f'{ga[0]},', end='')
