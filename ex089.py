@@ -10,7 +10,7 @@ while True:
     stop = str(input('Quer continuar? [S/N] '))
     if stop == 'n':
         break
-print(f'{"No.":<4} {"NOME":<10} {"MÉDIA":>8}')
+print(f'{"No.":<6} {"NOME":<10} {"MÉDIA":>8}')
 print('-' * 30)
 for pos, c in enumerate(notas):
     notas[pos].insert(3, (c[1] + c[2]) / 2)
