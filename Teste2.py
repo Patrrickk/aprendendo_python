@@ -1,19 +1,11 @@
-cedula = 50
-quant_cedulas = 0
-valor = int(input('Valor do saque? '))
-while True:
-    if valor >= cedula:
-        quant_cedulas += 1
-        valor -= cedula
-    else:
-        print(f'Total de R${quant_cedulas} cédulas de R${cedula}')
-        if cedula == 50:
-            cedula = 20
-        elif cedula == 20:
-            cedula = 10
-        elif cedula == 10:
-            cedula = 1
-        quant_cedulas = 0
-        if valor == 0:
-            break
-
+from time import sleep
+from random import sample
+sorteo = []
+fim = int(input('Quantos jogos você quer que eu sorteie? '))
+print(f'{" SORTEANDO ":=^30} ')
+for c in range(0, fim):
+    sorteo.append(sample(range(60), k=6))
+    sorteo[c].sort()
+    print(f'Jogo :{len(sorteo)} {sorteo[c]}')
+    sleep(1)
+print(sorteo)

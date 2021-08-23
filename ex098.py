@@ -8,9 +8,9 @@ def contador(inicio, fim, passo):
         passo = 1
     print('=-=' * 10)
     print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
-    if fim > inicio and passo > 0:
+    if fim > inicio:
         fim += 1
-    elif fim < inicio and passo > 0:
+    elif fim < inicio:
         fim -= 1
         passo -= (passo * 2)
     for cont in range(inicio, fim, passo):
@@ -21,6 +21,7 @@ def contador(inicio, fim, passo):
 
 contador(1, 10, 1)
 contador(10, 0, 2)
+print('=-=' * 10)
 print('Agora é sua vez de personalizar a contagem!')
 inicioo = int(input('Início: '))
 fimm = int(input('Fim: '))

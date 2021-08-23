@@ -5,7 +5,7 @@ def mensagem(msg):
     print('~' * tam)
 
 
+# Programa Principal
 mensagem('Gustavo Guanabara')
 mensagem('Curso de Python no Youtube')
 mensagem('CeV')
-mensagem('Boa noite, meu grande é nobre amigo!')
